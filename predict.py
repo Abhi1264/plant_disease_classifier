@@ -58,7 +58,7 @@ def predict_leaf_health(image_path):
     class_labels = list(validation_generator.class_indices.keys())  
     predicted_label = class_labels[predicted_class]
 
-    return predicted_label  # Replace with actual prediction logic
+    return predicted_label 
 
 
 
